@@ -255,7 +255,7 @@ b.analog[5].read()
 </pre>
 
 # Threading with Firmata
-Hint: Fill several lines to complete the following program for blinking one LED every 1 second and another LED every 0.2 second independently.
+1. Fill several lines to complete the following program for blinking one LED every 1 second and another LED every 0.2 second independently. Threading is useful for achieving multi-tasking.
 <pre>
 import threading
 
@@ -268,7 +268,9 @@ def blink(pin,interval):
 
 thread1 = threading.Thread(target=blink, args=(2,0.5,))
 </pre>
+2. Make a program with firmata to start and stop multi-tasking threads.
 
+Hint: none
 
 # web server+ captured data + browser
 <pre>
