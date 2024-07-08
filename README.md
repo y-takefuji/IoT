@@ -240,7 +240,7 @@ Led will blink every second.
 $ cat firmataled.py
 import pyfirmata
 from time import sleep
-b=pyfirmata.Arduino('COM3')
+b=pyfirmata.Arduino('COM4')
 #i=pyfirmata.util.Iterator(b)
 while 1:
  b.digital[2].write(1)
@@ -250,9 +250,25 @@ while 1:
 
 
 -------To read analog port[0]------
-b.analog[0].read()
+b.analog[5].read()
 
 </pre>
+
+# Threading with Firmata
+Hint: Fill several lines to complete the following program for blinking one LED every 1 second and another LED every 0.2 second independently.
+<pre>
+import threading
+
+def blink(pin,interval):
+ while 1:
+  b.digital[pin].write(1)
+  sleep(interval)
+  b.digital[pin].write(0)
+  sleep(interval)
+
+thread1 = threading.Thread(target=blink, args=(2,0.5,))
+</pre>
+
 
 # web server+ captured data + browser
 <pre>
