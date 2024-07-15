@@ -272,10 +272,14 @@ thread1 = threading.Thread(target=blink, args=(2,0.5,))
 
 3. Make a program with firmata to start and stop multi-tasking threads with MediaPipe.
 
+Hint: https://github.com/y-takefuji/mediapipe_hand
+
 4. Make a program with firmata to change intervals with MediaPipe and multi-tasking threads. 
 
 5. Make a program with firmata and MediaPipe. Draw a switch circle by finger on screen with MediaPipe.
    Whenever your nose position is within the switch circle, blink LED.
+Hint: https://github.com/y-takefuji/mediapipe_hand
+Hint: https://github.com/y-takefuji/mediapipe_pose   
    
 
 Hint: none
