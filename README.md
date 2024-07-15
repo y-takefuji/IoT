@@ -270,7 +270,7 @@ thread1 = threading.Thread(target=blink, args=(2,0.5,))
 </pre>
 2. Make a program with firmata to blink two LEDs using different intervals with multi-tasking threads.
 
-4. Make a program with firmata to start and stop multi-tasking threads with MediaPipe.
+3. Make a program with firmata to start and stop multi-tasking threads with MediaPipe.
 
 Hint: none
 
