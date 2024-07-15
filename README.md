@@ -272,6 +272,8 @@ thread1 = threading.Thread(target=blink, args=(2,0.5,))
 
 3. Make a program with firmata to start and stop multi-tasking threads with MediaPipe.
 
+4. Make a program with firmata to change intervals with MediaPipe and multi-tasking threads.
+
 Hint: none
 
 # web server+ captured data + browser
