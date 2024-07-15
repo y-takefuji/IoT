@@ -268,7 +268,9 @@ def blink(pin,interval):
 
 thread1 = threading.Thread(target=blink, args=(2,0.5,))
 </pre>
-2. Make a program with firmata to start and stop multi-tasking threads.
+2. Make a program with firmata to blink two LEDs using different intervals with multi-tasking threads.
+
+4. Make a program with firmata to start and stop multi-tasking threads.
 
 Hint: none
 
