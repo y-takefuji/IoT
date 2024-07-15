@@ -267,7 +267,7 @@ def blink(pin,interval):
   sleep(interval)
 
 thread1 = threading.Thread(target=blink, args=(2,0.5,))
-</pre>
+
 2. Make a program with firmata to blink three LEDs using different intervals with multi-tasking threads.
 
 3. Make a program with firmata to start and stop multi-tasking threads with MediaPipe.
@@ -283,7 +283,7 @@ Hint: https://github.com/y-takefuji/mediapipe_pose
    
 
 Hint: none
-
+</pre>
 # web server+ captured data + browser
 <pre>
 Expand web_flask.tar.
