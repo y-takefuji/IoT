@@ -281,8 +281,6 @@ Hint: https://github.com/y-takefuji/mediapipe_hand
 Hint: https://github.com/y-takefuji/mediapipe_hand
 Hint: https://github.com/y-takefuji/mediapipe_pose   
    
-
-Hint: none
 </pre>
 # web server+ captured data + browser
 <pre>
